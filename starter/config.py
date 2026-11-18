@@ -9,7 +9,7 @@ import os
 # TODO(step 1): replace "TODO" with the name of the .env key that holds your
 # fork (owner/name). `uv run mda dev` loads .env, and `uv run mda deploy`
 # forwards it to the deployment.
-REPO = os.environ.get("TODO", "").strip()
+REPO = os.environ.get("PATCH_REPO", "").strip()
 
 # Where the repo is cloned inside each thread's sandbox.
 CHECKOUT = "/workspace/app"
