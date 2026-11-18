@@ -14,7 +14,7 @@ agent = define_deep_agent(
     # TODO(step 1): name your agent: letters, numbers, underscores, or hyphens,
     # starting with a letter, e.g. "patch-ada". It becomes your deployment's
     # name in LangSmith, so make it unique in the workshop workspace.
-    name="TODO",
+    name="tetris-debugger-local",
     model="anthropic:claude-sonnet-5-5",
     # Clones your fork into the sandbox before every turn. Does nothing until
     # the sandbox exists (step 2).

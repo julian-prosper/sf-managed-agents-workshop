@@ -40,8 +40,14 @@ work before it claims a change is done, as a short list of checks:
 End with: say in the reply what was verified, and never claim a change works
 without checking it.
 -->
+- Create a checklist of what the prompt is asking to change
+- Read through how the code looked before you changed it, compare the old version of the file to the new current state
+- Confirm that the code you are changing correctly addresses what the existing issue was
+- When replying list the users issues with an "x" after them to confirm that the bug was addressed
 
 ## Rules
+- Only touch the code that would affect what the user is asking for
+- Fix the code in the simplest manner you find , no need to over engineer it
 
 <!--
 TODO(step 1): two or three rules about scope. Should Patch tidy up unrelated
